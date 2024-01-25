@@ -1,5 +1,4 @@
-export const Part = ({ path, index, zIndex }) => {
-  console.log("rerender");
+export const Accessory = ({ path, index, zIndex }) => {
   return (
     <img
       src={`character/${path}/${index + 1}.png`}

@@ -1,4 +1,4 @@
-export const PartList = ({
+export const AccessoryList = ({
   total,
   path,
   set,

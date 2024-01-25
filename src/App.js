@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Avatar from "./components/Avatar";
-import { PartList } from "./components/PartList";
+import { AccessoryList } from "./components/PartList";
 const total = {
   body: 17,
   eyes: 17,
@@ -67,7 +67,7 @@ function App() {
         <div>
           <div className="list-section">
             <h2>Body</h2>
-            <PartList
+            <AccessoryList
               total={total.body}
               path="body"
               set={setBody}
@@ -76,7 +76,7 @@ function App() {
           </div>
           <div className="list-section">
             <h2>Eyes</h2>
-            <PartList
+            <AccessoryList
               total={total.eyes}
               path="eyes"
               set={setEyes}
@@ -87,7 +87,7 @@ function App() {
           </div>
           <div className="list-section">
             <h2>Hair</h2>
-            <PartList
+            <AccessoryList
               total={total.hair}
               path="hair"
               set={setHair}
@@ -96,7 +96,7 @@ function App() {
           </div>
           <div className="list-section">
             <h2>Mouth</h2>
-            <PartList
+            <AccessoryList
               total={total.mouth}
               path="mouths"
               set={setMouth}
@@ -106,7 +106,7 @@ function App() {
           </div>
           <div className="list-section">
             <h2>Eyebrows</h2>
-            <PartList
+            <AccessoryList
               total={total.eyebrows}
               path="eyebrows"
               set={setEyebrow}
@@ -115,7 +115,7 @@ function App() {
           </div>
           <div className="list-section">
             <h2>Glasses</h2>
-            <PartList
+            <AccessoryList
               total={total.glasses}
               path="accessories/glasses"
               set={setGlasses}
@@ -124,7 +124,7 @@ function App() {
           </div>
           <div className="list-section">
             <h2>Clothing (L1)</h2>
-            <PartList
+            <AccessoryList
               total={total.clothing1}
               path="clothes/layer_1"
               set={setClothing1}
@@ -133,7 +133,7 @@ function App() {
           </div>
           <div className="list-section">
             <h2>Clothing (L2)</h2>
-            <PartList
+            <AccessoryList
               total={total.clothing2}
               path="clothes/layer_2"
               set={setClothing2}
@@ -142,7 +142,7 @@ function App() {
           </div>
           <div className="list-section">
             <h2>Clothing (L3)</h2>
-            <PartList
+            <AccessoryList
               total={total.clothing3}
               path="clothes/layer_3"
               set={setClothing3}
