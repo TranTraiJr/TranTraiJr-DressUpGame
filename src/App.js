@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Avatar from "./components/Avatar";
-import { AccessoryList } from "./components/PartList";
+import { AccessoryList } from "./components/AccessoryList";
 const total = {
   body: 17,
   eyes: 17,
@@ -38,6 +38,7 @@ function App() {
   useEffect(() => {
     randomize();
   }, []);
+
   return (
     <div className="App">
       <div className="title">GOD OF MISCHIEF</div>
